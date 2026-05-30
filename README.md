@@ -62,9 +62,11 @@ dataset; it is out of scope here.
 This package is [MIT](LICENSE) licensed.
 
 The subdistrict reference points are derived from the **Department of Provincial
-Administration (กรมการปกครอง, DOPA)** subdistrict coordinate dataset — government
-administrative data; the factual coordinates and geocodes are not subject to
-copyright. Gaps are filled from
+Administration (กรมการปกครอง, DOPA)** subdistrict coordinate dataset, published on
+Thailand's open-government-data portal
+([data.go.th](https://data.go.th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910))
+— government administrative data; the factual coordinates and geocodes are not
+subject to copyright. Gaps are filled from
 [`kongvut/thai-province-data`](https://github.com/kongvut/thai-province-data)
 (MIT). Credit DOPA when redistributing the coordinate data.
 
