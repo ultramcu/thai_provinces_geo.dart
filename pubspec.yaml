@@ -1,0 +1,25 @@
+name: thai_provinces_geo
+description: >-
+  Offline GPS reverse-geocoding for Thailand: map a latitude/longitude to its
+  province, district and subdistrict. Pure Dart, built on thai_provinces.
+version: 0.1.0
+repository: https://github.com/ultramcu/thai_provinces_geo.dart
+homepage: https://github.com/ultramcu/thai_provinces_geo.dart
+issue_tracker: https://github.com/ultramcu/thai_provinces_geo.dart/issues
+topics:
+  - thailand
+  - geocoding
+  - gps
+  - address
+  - location
+
+environment:
+  # lints ^4 needs Dart >=3.1; the library itself only uses Dart 3.0 features.
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  thai_provinces: ^0.2.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
